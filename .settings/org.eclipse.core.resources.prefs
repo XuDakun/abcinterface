@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
 encoding//src/main/resources/TrustMerchant.properties=UTF-16
+encoding//src/main/resources/log4j.properties=ISO-8859-1
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8

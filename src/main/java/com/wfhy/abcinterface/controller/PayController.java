@@ -4,8 +4,10 @@ import com.abc.pay.client.JSON;
 import com.abc.pay.client.ebus.QuickIdentityVerifyRequest;
 import com.wfhy.abcinterface.service.PayService;
 
+import org.apache.log4j.Logger;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,11 +18,17 @@ import javax.servlet.http.HttpServletResponse;
 
 @RestController
 @RequestMapping("pay")
+@PropertySource("classpath:log4j.properties")
 public class PayController {
     @Autowired
     private PayService payService;
+    
+ 
+    Logger logger =Logger.getLogger(PayController.class); 
     @RequestMapping("Test")
     public String test() {
+    	logger.info("进入测试方法");
+    	logger.info("测试方法返回参数:hi");
     	return "hi!";
     }
     @RequestMapping("MerchantPayment")

@@ -8,9 +8,12 @@ D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\RefundService.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\controller\RefundController.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\SignService.java
+D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\controller\WechatOrAliPayController.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\KCodePayService.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\controller\SignController.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\impl\AgentServiceImpl.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\AbcinterfaceApplication.java
+D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\WechatOrAliPayService.java
+D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\impl\WechatOrAliPayServiceImpl.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\PayService.java
 D:\workspace\eclipse-workspace\abcinterface\src\main\java\com\wfhy\abcinterface\service\impl\RefundServiceImpl.java
